@@ -31,7 +31,7 @@ const ProductsByOwner = () => {
 
         const publicClient = createPublicClient({
           chain: rollux,
-          transport: http('https://rpc.rollux.com'),
+          transport: http('https://rpc.ankr.com/rollux'),
         });
 
         try {
